@@ -1,0 +1,31 @@
+header,nav,section,footer{
+background-color: #ddd;
+width: 100%;
+max-width: 800px;
+margin: 0 auto;
+margin-top: 5px;
+box-sizing: border-box; 
+padding: 10px;
+  font:100% Arial;
+  color: #555;
+}
+header{
+  height: 150px;
+}
+section{
+  height: 350px;
+}
+nav,footer{
+  height: 50px;
+  
+}
+@media screen and(max-width:700px){
+  header,nav,section,footer{
+    background-color: lightgray;
+  }
+}
+@media screen and(max-width:400px){
+   header,nav,section,footer{
+    background-color: lightblue;
+  }
+}

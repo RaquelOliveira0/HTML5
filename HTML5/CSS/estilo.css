@@ -1,0 +1,72 @@
+*{
+padding: 0px;
+margin: 0px;
+font-family: Arial;  
+}
+.principal{
+  background-color: #ccc;
+  width: 100%;
+  max-width:  1200px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+}
+header{
+  background-color: #FFF;
+  width: 100%;
+  height: 200px;
+}
+nav{
+  background-color: #FFF;
+  margin-top: 10px;
+  width: 100%;
+  height: 50px;
+}
+section{
+  background-color: #fff;
+  margin-top: 10px;
+  width: 75%;
+  height: 500px;
+  float: left;
+
+}
+aside{
+  background-color: #fff;
+  width: 24.16666666666667%;
+  margin-top: 10px;
+  height: 500px;
+  float: left;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  
+}
+footer{
+  background: #fff;
+  width: 100%;
+  height: 60px;
+  clear: both;
+
+}
+@media screen and (max-width:700px){
+  aside{
+    display: none;
+  }
+  section{
+    width: 100%;
+  }
+  header{
+    background-image: url('../IMG/hotel_room.jpg');
+  }
+}
+@media screen and(max-width:400px){  
+  nav{
+    background-color: green;
+     align-content: center;    
+  }
+  header{
+    background-image: url('../IMG/car_red.jpg');
+  }
+   
+}
+
+

@@ -1,0 +1,28 @@
+
+body{
+	width: 900px;
+	font-family: Verdana;
+	font-size: 95%;
+	margin: auto;
+	background: #ccc;
+
+}
+section{
+	width: 700px;
+	background: #fff;
+	margin: auto;
+	border: 3px solid #ddd;
+	border-radius: 5px;
+}
+.campos{
+	width: 200px;
+	height: 30px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	margin-top:5px; 
+
+}
+textarea{
+	width: 250px;
+	height: 100px;
+}
